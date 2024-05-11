@@ -1,0 +1,50 @@
+.page-background {
+  background-image: url("../assets/landing-page-background.png");
+  opacity: 80%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.ac-title {
+  font-size: 50px;
+  position: relative;
+  left: 0;
+}
+
+.project-name {
+  font-size: 75px;
+  font-style: italic;
+}
+
+.button {
+  background: #c4d0e2;
+  border: 2px solid black;
+  color: black;
+  font-size: 30px;
+  height: 60px;
+  min-width: 200px;
+  border-radius: 120px;
+}
+
+.button:hover {
+  background: #5e7fb1;
+}
+
+.button-text {
+  color: black;
+  text-decoration: none;
+  margin: 0 2rem 0 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
