@@ -25,10 +25,13 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
           <NavLink className="nav-item nav-link navbar-text" to="/">
-            Portfolio
+            <i>Home</i>
           </NavLink>
           <NavLink className="nav-item nav-link navbar-text" to="/">
-            Resume
+            <i>Portfolio</i>
+          </NavLink>
+          <NavLink className="nav-item nav-link navbar-text" to="/">
+            <i>Resume</i>
           </NavLink>
         </div>
       </div>

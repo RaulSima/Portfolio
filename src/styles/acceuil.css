@@ -1,6 +1,5 @@
 .page-background {
   background-image: url("../assets/landing-page-background.png");
-  opacity: 80%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -12,8 +11,27 @@
   width: 100%;
 }
 
-.ac-title {
-  font-size: 50px;
+.info-container {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(42, 54, 72),
+    rgb(61, 184, 206)
+  );
+  width: 85%;
+  min-height: 75%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.info-text {
+  max-width: 50%;
+  font-size: 20px;
   position: relative;
   left: 0;
 }

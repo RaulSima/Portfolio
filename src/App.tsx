@@ -11,9 +11,9 @@ function App() {
       </div>
       <div className="content">
         <Routes>
-          <Route path="/acceuil" element={<Acceuil />} />
+          <Route path="/accueil" element={<Acceuil />} />
           <Route path="/not-found" element={<Acceuil />} />
-          <Route path="/" element={<Navigate replace to="/acceuil" />} />
+          <Route path="/" element={<Navigate replace to="/accueil" />} />
         </Routes>
       </div>
     </div>
