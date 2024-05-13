@@ -15,7 +15,7 @@ type ComponentProps = {
   icon: any;
 };
 
-const TimelineItemRight = ({
+const TimelineItemComponent = ({
   time,
   title,
   description,
@@ -25,7 +25,6 @@ const TimelineItemRight = ({
     <TimelineItem>
       <TimelineOppositeContent
         sx={{ m: "auto 0" }}
-        align="right"
         variant="h5"
         color="text.secondary"
       >
@@ -47,4 +46,4 @@ const TimelineItemRight = ({
   );
 };
 
-export default TimelineItemRight;
+export default TimelineItemComponent;

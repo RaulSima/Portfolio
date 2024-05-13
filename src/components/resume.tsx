@@ -1,21 +1,9 @@
 import React, { Component } from "react";
 import "../styles/resume.css";
-import {
-  Timeline,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-  TimelineItem,
-  TimelineOppositeContent,
-  TimelineSeparator,
-} from "@mui/lab";
+import { Timeline } from "@mui/lab";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import HotelIcon from "@mui/icons-material/Hotel";
-import RepeatIcon from "@mui/icons-material/Repeat";
 import SchoolIcon from "@mui/icons-material/School";
-import Typography from "@mui/material/Typography";
-import TimelineItemLeft from "./common/timelineItemLeft";
-import TimelineItemRight from "./common/timelineItemRight";
+import TimelineItemComponent from "./common/timelineItemRight";
 
 class Resume extends Component {
   render() {
@@ -24,56 +12,66 @@ class Resume extends Component {
         <div className="resume-page-background">
           <div className="resume-timeline-container">
             <Timeline position="alternate">
-              <TimelineItemLeft
-                time="2018 (juin)"
+              <TimelineItemComponent
+                time="2018 (Juin)"
                 title="DES (Diplôme d'études secondaires)"
                 description="Collège St-Jean-Vianney"
                 icon={<SchoolIcon />}
               />
-              <TimelineItemLeft
+              <TimelineItemComponent
                 time="2018 (September)"
                 title="Start of Cégep at"
                 description="Collège de Maisonneuve"
                 icon={<SchoolIcon />}
               />
-              <TimelineItem>
-                <TimelineOppositeContent
-                  sx={{ m: "auto 0" }}
-                  align="right"
-                  variant="h5"
-                  color="text.secondary"
-                >
-                  2019 (August)
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot color="primary" variant="outlined">
-                    <HotelIcon />
-                  </TimelineDot>
-                  <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <Typography variant="h6" component="span">
-                    Sleep
-                  </Typography>
-                  <Typography>Because you need rest</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-                  <TimelineDot color="secondary">
-                    <RepeatIcon />
-                  </TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <Typography variant="h6" component="span">
-                    Repeat
-                  </Typography>
-                  <Typography>Because this is the life you love!</Typography>
-                </TimelineContent>
-              </TimelineItem>
+              <TimelineItemComponent
+                time="2019 (September-December)"
+                title="Coding animator"
+                description="animator of a program that was set to teach elementary school students the basics of coding through Scratch at Collège de Maisonneuve"
+                icon={<LaptopMacIcon />}
+              />
+              <TimelineItemComponent
+                time="2020 (February-March)"
+                title="Coding animator"
+                description="animator of a program that was set to teach high school students the basics of coding through JavaScript at Collège de Maisonneuve"
+                icon={<LaptopMacIcon />}
+              />
+              <TimelineItemComponent
+                time="2020 (Juin)"
+                title="DEC (Diplôme d'études collégiales)"
+                description="Collège de Maisonneuve"
+                icon={<SchoolIcon />}
+              />
+              <TimelineItemComponent
+                time="2020 (September)"
+                title="Start of University"
+                description="At ETS (École de technologie supérieure)"
+                icon={<SchoolIcon />}
+              />
+              <TimelineItemComponent
+                time="2022 (January-April)"
+                title="Backend developper (C#, .NET) Internship"
+                description="At UMAKnow"
+                icon={<LaptopMacIcon />}
+              />
+              <TimelineItemComponent
+                time="2023 (January-august)"
+                title="Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
+                description="At Nomadis"
+                icon={<LaptopMacIcon />}
+              />
+              <TimelineItemComponent
+                time="2023-2024 (September-February)"
+                title="Part-Time Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
+                description="At Nomadis"
+                icon={<LaptopMacIcon />}
+              />
+              <TimelineItemComponent
+                time="2024 (May)"
+                title="Block Magic Hakaton"
+                description="At ChainLink"
+                icon={<LaptopMacIcon />}
+              />
             </Timeline>
           </div>
         </div>
