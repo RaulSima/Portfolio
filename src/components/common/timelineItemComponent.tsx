@@ -33,7 +33,7 @@ const TimelineItemComponent = ({
       {/* node in the time line with line above and below */}
       <TimelineSeparator>
         <TimelineConnector />
-        <TimelineDot>{icon}</TimelineDot>
+        {icon}
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent sx={{ py: "12px", px: 2 }}>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../styles/resume.css";
-import { Timeline } from "@mui/lab";
+import { Timeline, TimelineDot } from "@mui/lab";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import SchoolIcon from "@mui/icons-material/School";
-import TimelineItemComponent from "./common/timelineItemRight";
+import TimelineItemComponent from "./common/timelineItemComponent";
 
 class Resume extends Component {
   render() {
@@ -13,64 +13,104 @@ class Resume extends Component {
           <div className="resume-timeline-container">
             <Timeline position="alternate">
               <TimelineItemComponent
-                time="2018 (Juin)"
+                time="2018"
                 title="DES (Diplôme d'études secondaires)"
                 description="Collège St-Jean-Vianney"
-                icon={<SchoolIcon />}
+                icon={
+                  <TimelineDot color="primary">
+                    <SchoolIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2018 (September)"
+                time="2018"
                 title="Start of Cégep at"
                 description="Collège de Maisonneuve"
-                icon={<SchoolIcon />}
+                icon={
+                  <TimelineDot color="primary">
+                    <SchoolIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2019 (September-December)"
+                time="2019"
                 title="Coding animator"
                 description="animator of a program that was set to teach elementary school students the basics of coding through Scratch at Collège de Maisonneuve"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2020 (February-March)"
+                time="2020"
                 title="Coding animator"
                 description="animator of a program that was set to teach high school students the basics of coding through JavaScript at Collège de Maisonneuve"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2020 (Juin)"
+                time="2020"
                 title="DEC (Diplôme d'études collégiales)"
                 description="Collège de Maisonneuve"
-                icon={<SchoolIcon />}
+                icon={
+                  <TimelineDot color="primary">
+                    <SchoolIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2020 (September)"
+                time="2020"
                 title="Start of University"
                 description="At ETS (École de technologie supérieure)"
-                icon={<SchoolIcon />}
+                icon={
+                  <TimelineDot color="primary">
+                    <SchoolIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2022 (January-April)"
+                time="2022"
                 title="Backend developper (C#, .NET) Internship"
                 description="At UMAKnow"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2023 (January-august)"
+                time="2023"
                 title="Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
                 description="At Nomadis"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2023-2024 (September-February)"
+                time="2023-2024"
                 title="Part-Time Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
                 description="At Nomadis"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
               <TimelineItemComponent
-                time="2024 (May)"
+                time="2024"
                 title="Block Magic Hakaton"
                 description="At ChainLink"
-                icon={<LaptopMacIcon />}
+                icon={
+                  <TimelineDot color="secondary">
+                    <LaptopMacIcon />
+                  </TimelineDot>
+                }
               />
             </Timeline>
           </div>
