@@ -3,7 +3,6 @@ import {
   TimelineOppositeContent,
   TimelineSeparator,
   TimelineConnector,
-  TimelineDot,
   TimelineContent,
 } from "@mui/lab";
 import { Typography } from "@mui/material";
