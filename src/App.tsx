@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Acceuil from "./components/acceuil";
 import Projects from "./components/projects";
+import Resume from "./components/resume";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/Portfolio/home" element={<Acceuil />} />
           <Route path="/Portfolio/projects" element={<Projects />} />
+          <Route path="/Portfolio/resume" element={<Resume />} />
           <Route
             path="/Portfolio/"
             element={<Navigate replace to="/Portfolio/home" />}
