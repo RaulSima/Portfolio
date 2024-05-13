@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/acceuil.css";
+import "../styles/projects.css";
 import img from "../assets/He-says-the-thing.png";
 
 class Acceuil extends Component {
@@ -7,10 +7,9 @@ class Acceuil extends Component {
     return (
       <React.Fragment>
         <div className="page-background">
-          <div className="info-container">
+          <div className="project-info-container">
             <div style={{ paddingBottom: "30px" }}>
-              <h1>Hello There!</h1>
-              <img src={img}></img>
+              <video src={video} width="750" height="500" controls></video>
             </div>
             <div className="info-text">
               My name is Raul Sima and I am a student, soon to be graduate
