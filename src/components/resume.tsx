@@ -7,13 +7,15 @@ import {
   TimelineDot,
   TimelineItem,
   TimelineOppositeContent,
-  TimelineSeparator
+  TimelineSeparator,
 } from "@mui/lab";
-import FastfoodIcon from "@mui/icons-material/Fastfood";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import HotelIcon from "@mui/icons-material/Hotel";
 import RepeatIcon from "@mui/icons-material/Repeat";
+import SchoolIcon from "@mui/icons-material/School";
 import Typography from "@mui/material/Typography";
+import TimelineItemLeft from "./common/timelineItemLeft";
+import TimelineItemRight from "./common/timelineItemRight";
 
 class Resume extends Component {
   render() {
@@ -22,52 +24,27 @@ class Resume extends Component {
         <div className="resume-page-background">
           <div className="resume-timeline-container">
             <Timeline position="alternate">
+              <TimelineItemLeft
+                time="2018 (juin)"
+                title="DES (Diplôme d'études secondaires)"
+                description="Collège St-Jean-Vianney"
+                icon={<SchoolIcon />}
+              />
+              <TimelineItemLeft
+                time="2018 (September)"
+                title="Start of Cégep at"
+                description="Collège de Maisonneuve"
+                icon={<SchoolIcon />}
+              />
               <TimelineItem>
                 <TimelineOppositeContent
                   sx={{ m: "auto 0" }}
                   align="right"
-                  variant="body2"
+                  variant="h5"
                   color="text.secondary"
                 >
-                  9:30 am
+                  2019 (August)
                 </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot>
-                    <FastfoodIcon />
-                  </TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <Typography variant="h6" component="span">
-                    Eat
-                  </Typography>
-                  <Typography>Because you need strength</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineOppositeContent
-                  sx={{ m: "auto 0" }}
-                  variant="body2"
-                  color="text.secondary"
-                >
-                  10:00 am
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                  <TimelineConnector />
-                  <TimelineDot color="primary">
-                    <LaptopMacIcon />
-                  </TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent sx={{ py: "12px", px: 2 }}>
-                  <Typography variant="h6" component="span">
-                    Code
-                  </Typography>
-                  <Typography>Because it&apos;s awesome!</Typography>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
                 <TimelineSeparator>
                   <TimelineConnector />
                   <TimelineDot color="primary" variant="outlined">
