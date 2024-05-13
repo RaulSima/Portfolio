@@ -13,13 +13,10 @@ function App() {
       </div>
       <div className="content">
         <Routes>
-          <Route path="/Portfolio/home" element={<Acceuil />} />
-          <Route path="/Portfolio/projects" element={<Projects />} />
-          <Route path="/Portfolio/resume" element={<Resume />} />
-          <Route
-            path="/Portfolio/"
-            element={<Navigate replace to="/Portfolio/home" />}
-          />
+          <Route path="/home" element={<Acceuil />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/" element={<Navigate replace to="/home" />} />
         </Routes>
       </div>
     </div>
