@@ -60,9 +60,3 @@
   text-decoration: none;
   margin: 0 2rem 0 2rem;
 }
-
-.button-container {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}

@@ -1,24 +1,56 @@
 import React, { Component } from "react";
 import "../styles/projects.css";
-import img from "../assets/He-says-the-thing.png";
+import game_engine_video from "../assets/C++_Game_Engine.mp4";
 
-class Acceuil extends Component {
+class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="page-background">
+        <div className="projetcs-page-background">
           <div className="project-info-container">
-            <div style={{ paddingBottom: "30px" }}>
-              <video src={video} width="750" height="500" controls></video>
-            </div>
+            <video
+              className="project-video"
+              src={game_engine_video}
+              width="550"
+              height="308"
+              controls
+            ></video>
             <div className="info-text">
-              My name is Raul Sima and I am a student, soon to be graduate
-              (2024) with a bachelor's degree in Software Engineering from ETS
-              (École de technologie supérieure). I am interested in physics
-              simulations and Video game engines. I have extensive experience
-              working with both low level (C/C++) and high level language
-              (python).
+              Start of Making a 2D game engine in C++ using SDL 2.
             </div>
+          </div>
+          <div className="project-info-container">
+            <video
+              className="project-video"
+              src={game_engine_video}
+              width="550"
+              height="308"
+              controls
+            ></video>
+            <div className="info-text">
+              Making a game following a Game design document as a semester
+              projet in colaboration with Ging Sze Chan and Nikolas Besner
+            </div>
+          </div>
+          <div className="project-info-container">
+            <video
+              className="project-video"
+              src={game_engine_video}
+              width="550"
+              height="308"
+              controls
+            ></video>
+            <div className="info-text">project 3</div>
+          </div>
+          <div className="project-info-container">
+            <video
+              className="project-video"
+              src={game_engine_video}
+              width="550"
+              height="308"
+              controls
+            ></video>
+            <div className="info-text">project 4</div>
           </div>
         </div>
       </React.Fragment>
@@ -26,4 +58,4 @@ class Acceuil extends Component {
   }
 }
 
-export default Acceuil;
+export default Projects;

@@ -2,6 +2,7 @@ import "./App.css";
 import { Route, Routes, Navigate } from "react-router-dom";
 import NavBar from "./components/navBar";
 import Acceuil from "./components/acceuil";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/Portfolio/home" element={<Acceuil />} />
+          <Route path="/Portfolio/projects" element={<Projects />} />
           <Route
             path="/Portfolio/"
             element={<Navigate replace to="/Portfolio/home" />}
