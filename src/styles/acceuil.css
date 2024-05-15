@@ -20,19 +20,33 @@
   width: 85%;
   min-height: 75%;
   height: min-content;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   align-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  overflow-y: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-title {
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info-text {
   max-width: 50%;
   font-size: 40px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
 }
 

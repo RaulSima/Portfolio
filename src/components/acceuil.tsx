@@ -7,7 +7,7 @@ class Acceuil extends Component {
       <React.Fragment>
         <div className="page-background">
           <div className="info-container">
-            <div style={{ paddingBottom: "30px" }}>
+            <div className="info-title">
               <h1>Hello There!</h1>
             </div>
             <div className="info-text">
