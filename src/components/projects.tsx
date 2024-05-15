@@ -4,6 +4,7 @@ import game_engine_video from "../assets/C++_Game_Engine.mp4";
 import indiana_game_video from "../assets/Demo-jeu-indiana-jones.mov";
 import spring_particle_systems from "../assets/spring_particle_system.mkv";
 import inverse_kinematic from "../assets/inverse_kinematic.mkv";
+import java_video from "../assets/java_game_video.mkv";
 import car_img from "../assets/car.jpg";
 import ProjectVideoContainer from "./common/projectVideoContainer";
 import ProjectImageContainer from "./common/projectImageContainer";
@@ -24,7 +25,7 @@ class Projects extends Component {
             Chan and Nikolas Besner"
           />
           <ProjectVideoContainer
-            video={game_engine_video}
+            video={java_video}
             description="(2020) Making an application in Java, using materia learned from
             different classes like physics and mathematics throught the course
             of the CEGEP as a final project for the Sciences informatiques et
