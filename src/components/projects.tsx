@@ -47,7 +47,7 @@ class Projects extends Component {
           <ProjectVideoContainer
             video={inverse_kinematic}
             description="(2023) Making a 3D simulation of robotic arm trying to get to 
-            a specific target with its end joint using our own linear algebra library for the GTI320 class."
+            a specific target with its end joint in C++ using our own linear algebra library for the GTI320 class."
           />
         </div>
       </React.Fragment>

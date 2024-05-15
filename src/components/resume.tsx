@@ -84,7 +84,7 @@ class Resume extends Component {
               />
               <TimelineItemComponent
                 time="2023"
-                title="Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
+                title="Full Stack developper (TypeScrpt, Angular, C#, .NET, Docker, Jira, Bitbucket, SPA, micro-service architecture) Internship"
                 description="At Nomadis"
                 icon={
                   <TimelineDot color="secondary">
@@ -94,7 +94,7 @@ class Resume extends Component {
               />
               <TimelineItemComponent
                 time="2023-2024"
-                title="Part-Time Full Stack developper (TypeScrpt, Angular, C#, .NET) Internship"
+                title="Part-Time Full Stack developper Internship"
                 description="At Nomadis"
                 icon={
                   <TimelineDot color="secondary">
