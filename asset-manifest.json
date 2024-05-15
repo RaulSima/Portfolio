@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.65dd048d.css",
-    "main.js": "/Portfolio/static/js/main.504d7bc5.js",
+    "main.js": "/Portfolio/static/js/main.ef4f2a60.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/Demo-jeu-indiana-jones.mov": "/Portfolio/static/media/Demo-jeu-indiana-jones.5190fe037ee785d75174.mov",
+    "static/media/java_game_video.mkv": "/Portfolio/static/media/java_game_video.ea108d0fb910f6af9a28.mkv",
     "static/media/spring_particle_system.mkv": "/Portfolio/static/media/spring_particle_system.247b3102a08a626a837d.mkv",
     "static/media/inverse_kinematic.mkv": "/Portfolio/static/media/inverse_kinematic.83b861993458aef51d04.mkv",
     "static/media/car.jpg": "/Portfolio/static/media/car.1e7c4651470df0eb7a5f.jpg",
@@ -11,11 +12,11 @@
     "static/media/landing-page-background.png": "/Portfolio/static/media/landing-page-background.1b28a0a7e75a4787abd8.png",
     "index.html": "/Portfolio/index.html",
     "main.65dd048d.css.map": "/Portfolio/static/css/main.65dd048d.css.map",
-    "main.504d7bc5.js.map": "/Portfolio/static/js/main.504d7bc5.js.map",
+    "main.ef4f2a60.js.map": "/Portfolio/static/js/main.ef4f2a60.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65dd048d.css",
-    "static/js/main.504d7bc5.js"
+    "static/js/main.ef4f2a60.js"
   ]
 }
