@@ -111,6 +111,26 @@ const Resume = () => {
                 </TimelineDot>
               }
             />
+            <TimelineItemComponent
+              time="2024"
+              title="Online developper (Typescrypt, AWS, JIRA, Opensearch, API service) Internship"
+              description="At Ubisoft"
+              icon={
+                <TimelineDot color="secondary">
+                  <LaptopMacIcon />
+                </TimelineDot>
+              }
+            />
+            <TimelineItemComponent
+              time="2024"
+              title="Obtention of Software Engineer Bachelor degree"
+              description="At ETS (École de technologie supérieure)"
+              icon={
+                <TimelineDot color="primary">
+                  <SchoolIcon />
+                </TimelineDot>
+              }
+            />
           </Timeline>
         </div>
       </div>
